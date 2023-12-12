@@ -1,0 +1,39 @@
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {margin: 0px auto; padding: 0; box-sizing: border-box; font-family: 'Pretendard';}
+
+.hidden {display: none;}
+
+img {display: block; width: 100%; height: 100vh;}
+
+ul {width: 100%; text-align: left; margin-top: 20px;}
+
+li {color: #fff; list-style: disc; width: fit-content; padding: 10px 0; transition: .3s; position: relative;}
+li button {background: none; border: none; margin-left: 10px; color: #fff; transition: .3s;}
+li:hover {color: #888;}
+li:hover button {color: rgb(255, 141, 121);}
+
+.wrap {width: 500px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;}
+
+#login-form {display: flex; align-items: center; justify-content: center;}
+#login-form button {transition: .3s; background: none; border: 1px solid #fff; padding: 5px 10px; color: #fff; border-radius: 5px; margin: 0;}
+#login-form button:hover {background: #ffffff42;}
+#login-form input[type="text"] {margin: 0; text-align: center; padding: 20px 0; background: none; border: none; font-size: 25px; color: #fff; outline: none;}
+#login-form input[type="text"]::placeholder {color: #ffffff9f;}
+
+#greeting {font-size: 45px; color: #fff; margin: 30px 0;}
+
+#todo-form input[type="text"] {width: 100%; text-align: center; padding: 20px 0; background: none; border: none; border-bottom: 1px solid #fff; font-size: 25px; color: #fff; outline: none;}
+#todo-form input[type="text"]::placeholder {color: #fff;}
+
+#clock {font-size: 100px; color: #fff;}
+
+#quote {position: absolute; bottom: 30px; left: 50%; transform: translateX(-50%); font-size: 15px; color: #fff; font-weight: 200;}
+
+#weather {position: absolute; top: 20px; right: 20px; color: #fff; font-weight: 200;}
